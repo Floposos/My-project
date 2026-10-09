@@ -1,0 +1,93 @@
+/* Logistikum – Farbstil „Hell & freundlich“: helle Flächen, weiche Kanten, kräftige Akzente. */
+.root { flex-grow: 1; }
+.lg-panel {
+    background-color: rgba(255, 255, 255, 0.96);
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(213, 219, 225);
+    padding: 8px 10px;
+    color: rgb(33, 42, 52);
+}
+.lg-row { flex-direction: row; align-items: center; }
+.lg-col { flex-direction: column; }
+.lg-grow { flex-grow: 1; }
+.lg-title { font-size: 20px; -unity-font-style: bold; margin-bottom: 6px; }
+.lg-subtitle { font-size: 14px; -unity-font-style: bold; margin-top: 8px; margin-bottom: 4px; }
+.lg-muted { color: rgb(107, 119, 133); font-size: 12px; white-space: normal; }
+.lg-text { font-size: 13px; white-space: normal; }
+.lg-warn { color: rgb(201, 69, 59); }
+.lg-good { color: rgb(38, 140, 82); }
+.lg-btn {
+    background-color: rgb(241, 244, 247);
+    border-color: rgb(203, 210, 218);
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 4px 10px;
+    margin: 2px;
+    font-size: 13px;
+    color: rgb(33, 42, 52);
+    -unity-text-align: middle-center;
+}
+.lg-btn:hover { background-color: rgb(226, 234, 242); border-color: rgb(140, 160, 182); }
+.lg-btn:active { background-color: rgb(206, 220, 234); }
+.lg-btn.lg-active { background-color: rgb(47, 128, 237); color: rgb(255, 255, 255); border-color: rgb(34, 104, 200); }
+.lg-btn.lg-primary { background-color: rgb(48, 164, 108); color: rgb(255, 255, 255); border-color: rgb(36, 135, 88); }
+.lg-btn.lg-primary:hover { background-color: rgb(40, 148, 96); }
+.lg-btn.lg-danger { color: rgb(201, 69, 59); }
+.lg-btn:disabled { opacity: 0.45; }
+.lg-big { font-size: 17px; padding: 9px 14px; margin: 4px 0; -unity-text-align: middle-left; }
+
+/* Kopfleiste */
+.lg-topbar { position: absolute; top: 8px; left: 8px; right: 8px; flex-direction: row; align-items: center; justify-content: space-between; }
+.lg-topgroup { flex-direction: row; align-items: center; }
+.lg-clock { font-size: 15px; -unity-font-style: bold; min-width: 190px; }
+.lg-balance { font-size: 16px; -unity-font-style: bold; min-width: 150px; -unity-text-align: middle-right; }
+.lg-paused { color: rgb(201, 69, 59); -unity-font-style: bold; margin-left: 8px; }
+.lg-rush { color: rgb(198, 120, 0); -unity-font-style: bold; margin-left: 8px; }
+
+/* Bauleiste */
+.lg-buildbar { position: absolute; bottom: 10px; left: 0; right: 0; align-items: center; }
+.lg-tools { flex-direction: row; flex-wrap: wrap; justify-content: center; max-width: 1200px; }
+.lg-tool { min-width: 92px; flex-direction: column; padding: 4px 8px; }
+.lg-tool-name { font-size: 13px; -unity-font-style: bold; -unity-text-align: middle-center; }
+.lg-tool-cost { font-size: 11px; color: rgb(107, 119, 133); -unity-text-align: middle-center; }
+.lg-tool.lg-active .lg-tool-cost { color: rgb(220, 232, 255); }
+.lg-swatch { width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; }
+
+/* Fenster und Dialoge */
+.lg-backdrop { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(20, 30, 40, 0.35); align-items: center; justify-content: center; }
+.lg-dialog { min-width: 440px; max-width: 820px; max-height: 88%; padding: 14px 16px; }
+.lg-window { position: absolute; top: 64px; width: 380px; max-height: 78%; }
+.lg-info { position: absolute; right: 10px; top: 64px; width: 360px; max-height: 80%; }
+.lg-menu { position: absolute; left: 6%; top: 18%; width: 340px; padding: 18px; }
+.lg-logo { font-size: 40px; -unity-font-style: bold; color: rgb(34, 104, 200); }
+.lg-list-row { flex-direction: row; align-items: center; padding: 3px 2px; border-bottom-width: 1px; border-color: rgb(234, 238, 242); }
+.lg-list-row:hover { background-color: rgb(244, 248, 252); }
+.lg-field { margin: 2px 0; }
+.lg-bar { height: 7px; background-color: rgb(229, 234, 239); border-radius: 4px; margin: 2px 0 4px 0; overflow: hidden; }
+.lg-bar-fill { height: 7px; background-color: rgb(48, 164, 108); border-radius: 4px; }
+.lg-bar-fill.lg-full { background-color: rgb(229, 72, 77); }
+
+/* Hinweise */
+.lg-tip { position: absolute; background-color: rgba(28, 36, 46, 0.92); color: rgb(255, 255, 255); border-radius: 6px; padding: 4px 8px; font-size: 12px; max-width: 420px; white-space: normal; }
+.lg-tip.lg-bad { background-color: rgba(176, 50, 44, 0.94); }
+.lg-toasts { position: absolute; top: 60px; left: 0; right: 0; align-items: center; }
+.lg-toast { background-color: rgba(28, 36, 46, 0.92); color: rgb(255, 255, 255); border-radius: 8px; padding: 6px 12px; margin: 3px; font-size: 13px; }
+.lg-float { position: absolute; font-size: 15px; -unity-font-style: bold; -unity-text-outline-width: 1px; -unity-text-outline-color: rgba(255, 255, 255, 0.9); }
+.lg-float.lg-plus { color: rgb(30, 140, 70); }
+.lg-float.lg-minus { color: rgb(201, 60, 52); }
+.lg-perf { position: absolute; left: 10px; bottom: 10px; background-color: rgba(28, 36, 46, 0.8); color: rgb(255, 255, 255); padding: 4px 8px; border-radius: 6px; font-size: 12px; }
+.lg-version { position: absolute; right: 10px; bottom: 6px; font-size: 11px; color: rgba(40, 50, 60, 0.7); }
+.lg-hover { position: absolute; background-color: rgba(255, 255, 255, 0.95); border-radius: 6px; padding: 3px 8px; font-size: 12px; color: rgb(33, 42, 52); border-width: 1px; border-color: rgb(213, 219, 225); }
+
+/* Eingabefelder im hellen Stil (Standard-Theme ist dunkel) */
+.unity-base-field__label { color: rgb(80, 92, 104); min-width: 110px; font-size: 13px; }
+.unity-base-popup-field__input, .unity-base-text-field__input {
+    background-color: rgb(241, 244, 247);
+    color: rgb(33, 42, 52);
+    border-color: rgb(203, 210, 218);
+    border-radius: 6px;
+}
+.unity-base-popup-field__text, .unity-base-popup-field__arrow { color: rgb(33, 42, 52); -unity-background-image-tint-color: rgb(33, 42, 52); }
+.unity-toggle__checkmark { background-color: rgb(255, 255, 255); border-color: rgb(140, 160, 182); }
+.unity-scroller { opacity: 0.6; }
