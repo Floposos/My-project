@@ -1,0 +1,1161 @@
+{
+  "format": "logistikum-save",
+  "saveVersion": 4,
+  "gameVersion": "0.3.0",
+  "createdAt": "2026-10-08T18:00:00.000Z",
+  "meta": {
+    "name": "Beispiel 0.3.0 (Touren, Verkehr, Flotte, Werkstatt, Panne, Rushhour)",
+    "tick": 1337,
+    "balanceCents": 163209500
+  },
+  "state": {
+    "seed": 42,
+    "tick": 1337,
+    "rng": {
+      "s": 42
+    },
+    "eventRng": {
+      "s": 2901732053
+    },
+    "nextId": 15,
+    "finance": {
+      "balanceCents": 163209500,
+      "recent": [
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -2050000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -225000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -360000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -360000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -3100000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -5000000
+        },
+        {
+          "tick": 0,
+          "category": "build",
+          "amountCents": -200000
+        },
+        {
+          "tick": 0,
+          "category": "vehicles",
+          "amountCents": -9000000
+        },
+        {
+          "tick": 0,
+          "category": "vehicles",
+          "amountCents": -175500
+        },
+        {
+          "tick": 0,
+          "category": "vehicles",
+          "amountCents": -11700000
+        },
+        {
+          "tick": 0,
+          "category": "vehicles",
+          "amountCents": -4500000
+        },
+        {
+          "tick": 901,
+          "category": "rawGoods",
+          "amountCents": -40000
+        },
+        {
+          "tick": 1189,
+          "category": "vehicles",
+          "amountCents": -80000
+        }
+      ],
+      "today": {
+        "key": 0,
+        "incomeCents": {
+          "build": 0,
+          "vehicles": 0,
+          "operations": 0,
+          "rawGoods": 0,
+          "exportRevenue": 0
+        },
+        "expenseCents": {
+          "build": 11295000,
+          "vehicles": 25455500,
+          "operations": 0,
+          "rawGoods": 40000,
+          "exportRevenue": 0
+        }
+      },
+      "month": {
+        "key": 24000,
+        "incomeCents": {
+          "build": 0,
+          "vehicles": 0,
+          "operations": 0,
+          "rawGoods": 0,
+          "exportRevenue": 0
+        },
+        "expenseCents": {
+          "build": 11295000,
+          "vehicles": 25455500,
+          "operations": 0,
+          "rawGoods": 40000,
+          "exportRevenue": 0
+        }
+      }
+    },
+    "buildings": [
+      {
+        "id": 5,
+        "type": "exportExit",
+        "x": 39,
+        "z": 124,
+        "builtTick": 0,
+        "paidCents": 5000000
+      }
+    ],
+    "roads": [
+      {
+        "x": 0,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 1,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 2,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 3,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 4,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 5,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 6,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 7,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 8,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 9,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 10,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 11,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 12,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 13,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 14,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 15,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 16,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 17,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 18,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 19,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 20,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 21,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 22,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 23,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 24,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 25,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 26,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 27,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 28,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 29,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 30,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 31,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 32,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 33,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 34,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 35,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 36,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 37,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 38,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 39,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 40,
+        "z": 61,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": true
+      },
+      {
+        "x": 40,
+        "z": 62,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 63,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 64,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 65,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 66,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 67,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 68,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 69,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 70,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 71,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 72,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 73,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 74,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 75,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 76,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 77,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 78,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 79,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 80,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 81,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 82,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 83,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 84,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 85,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 86,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 87,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 88,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 89,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 90,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 91,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 92,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 93,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 94,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 95,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 96,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 97,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 98,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 99,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 100,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 101,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 102,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 103,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 104,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 105,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 106,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 107,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 108,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 109,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 110,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 111,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 112,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 113,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 114,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 115,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 116,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 117,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 118,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 119,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 120,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 121,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 122,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      },
+      {
+        "x": 40,
+        "z": 123,
+        "builtTick": 0,
+        "paidCents": 50000,
+        "priority": false
+      }
+    ],
+    "zones": [
+      {
+        "id": 2,
+        "kind": "A",
+        "parts": [
+          {
+            "x": 10,
+            "z": 58,
+            "width": 3,
+            "depth": 3,
+            "builtTick": 0,
+            "paidCents": 225000
+          }
+        ],
+        "gate": "S",
+        "stock": {
+          "rawA": 0
+        },
+        "work": 0
+      },
+      {
+        "id": 3,
+        "kind": "B",
+        "parts": [
+          {
+            "x": 20,
+            "z": 62,
+            "width": 3,
+            "depth": 3,
+            "builtTick": 0,
+            "paidCents": 360000
+          }
+        ],
+        "gate": "N",
+        "stock": {
+          "rawA": 90,
+          "rawB": 16,
+          "combo": 4
+        },
+        "work": 53
+      },
+      {
+        "id": 4,
+        "kind": "C",
+        "parts": [
+          {
+            "x": 30,
+            "z": 58,
+            "width": 3,
+            "depth": 3,
+            "builtTick": 0,
+            "paidCents": 360000
+          }
+        ],
+        "gate": "S",
+        "stock": {
+          "combo": 0,
+          "final": 0
+        },
+        "work": 0
+      },
+      {
+        "id": 6,
+        "kind": "W",
+        "parts": [
+          {
+            "x": 14,
+            "z": 62,
+            "width": 2,
+            "depth": 2,
+            "builtTick": 0,
+            "paidCents": 200000
+          }
+        ],
+        "gate": "N",
+        "stock": {},
+        "work": 0
+      }
+    ],
+    "orders": [
+      {
+        "id": 12,
+        "product": "rawB",
+        "quantity": 20,
+        "interval": "daily",
+        "nextTick": 3901,
+        "blocked": null
+      }
+    ],
+    "vehicles": [
+      {
+        "id": 7,
+        "route": [
+          {
+            "x": 21,
+            "z": 61
+          }
+        ],
+        "progress": 0,
+        "cargo": null,
+        "timer": 22,
+        "heading": 1,
+        "offRoad": true,
+        "bayAt": null,
+        "waitTicks": 0,
+        "kind": "truck",
+        "phase": "idle",
+        "job": null,
+        "idleReason": "noJob",
+        "odometer": 28000,
+        "tourId": null,
+        "tourIndex": 0,
+        "model": "truck",
+        "drive": "diesel",
+        "priceCents": 9000000,
+        "boughtTick": 0,
+        "lease": null,
+        "upkeep": {
+          "condition": 99948,
+          "wearRest": 0,
+          "brokenTicks": 0,
+          "breakdowns": 0,
+          "lastBreakdownTick": null,
+          "lastServiceTick": 1189,
+          "serviceRequested": false,
+          "warnedNoWorkshop": false,
+          "workshopId": null
+        }
+      },
+      {
+        "id": 8,
+        "route": [
+          {
+            "x": 11,
+            "z": 61
+          }
+        ],
+        "progress": 0,
+        "cargo": {
+          "product": "rawA",
+          "quantity": 7
+        },
+        "timer": 28,
+        "heading": 3,
+        "offRoad": true,
+        "bayAt": 2,
+        "waitTicks": 0,
+        "kind": "truck",
+        "phase": "loading",
+        "job": null,
+        "idleReason": null,
+        "odometer": 92000,
+        "tourId": 11,
+        "tourIndex": 0,
+        "model": "van",
+        "drive": "electric",
+        "priceCents": 5850000,
+        "boughtTick": 0,
+        "lease": {
+          "monthlyCents": 175500,
+          "nextPaymentTick": 93000,
+          "endTick": 1098000
+        },
+        "upkeep": {
+          "condition": 99632,
+          "wearRest": 0,
+          "brokenTicks": 0,
+          "breakdowns": 0,
+          "lastBreakdownTick": null,
+          "lastServiceTick": null,
+          "serviceRequested": false,
+          "warnedNoWorkshop": false,
+          "workshopId": null
+        }
+      },
+      {
+        "id": 9,
+        "route": [
+          {
+            "x": 11,
+            "z": 61
+          },
+          {
+            "x": 12,
+            "z": 61
+          },
+          {
+            "x": 13,
+            "z": 61
+          },
+          {
+            "x": 14,
+            "z": 61
+          }
+        ],
+        "progress": 400,
+        "cargo": {
+          "product": "rawA",
+          "quantity": 19
+        },
+        "timer": 1,
+        "heading": 1,
+        "offRoad": false,
+        "bayAt": null,
+        "waitTicks": 0,
+        "kind": "truck",
+        "phase": "toWorkshop",
+        "job": null,
+        "idleReason": null,
+        "odometer": 72400,
+        "tourId": 11,
+        "tourIndex": 1,
+        "model": "truck",
+        "drive": "electric",
+        "priceCents": 11700000,
+        "boughtTick": 0,
+        "lease": null,
+        "upkeep": {
+          "condition": 20000,
+          "wearRest": 400,
+          "brokenTicks": 170,
+          "breakdowns": 1,
+          "lastBreakdownTick": 1307,
+          "lastServiceTick": null,
+          "serviceRequested": false,
+          "warnedNoWorkshop": false,
+          "workshopId": 6
+        }
+      },
+      {
+        "id": 10,
+        "route": [
+          {
+            "x": 21,
+            "z": 61
+          }
+        ],
+        "progress": 0,
+        "cargo": null,
+        "timer": 17,
+        "heading": 1,
+        "offRoad": true,
+        "bayAt": null,
+        "waitTicks": 0,
+        "kind": "truck",
+        "phase": "idle",
+        "job": null,
+        "idleReason": "noJob",
+        "odometer": 62000,
+        "tourId": null,
+        "tourIndex": 0,
+        "model": "van",
+        "drive": "diesel",
+        "priceCents": 4500000,
+        "boughtTick": 0,
+        "lease": null,
+        "upkeep": {
+          "condition": 99752,
+          "wearRest": 0,
+          "brokenTicks": 0,
+          "breakdowns": 0,
+          "lastBreakdownTick": null,
+          "lastServiceTick": null,
+          "serviceRequested": false,
+          "warnedNoWorkshop": false,
+          "workshopId": null
+        }
+      }
+    ],
+    "tours": [
+      {
+        "id": 11,
+        "name": "Frühschicht",
+        "color": 3,
+        "stops": [
+          {
+            "siteId": 2,
+            "action": "load",
+            "product": "rawA"
+          },
+          {
+            "siteId": 3,
+            "action": "unload",
+            "product": "rawA"
+          }
+        ]
+      }
+    ],
+    "notices": [
+      {
+        "id": 14,
+        "tick": 1307,
+        "kind": "breakdown",
+        "x": 11,
+        "z": 61,
+        "vehicleId": 9
+      }
+    ],
+    "entrance": {
+      "nextInTick": 986,
+      "nextOutTick": 1159
+    }
+  }
+}

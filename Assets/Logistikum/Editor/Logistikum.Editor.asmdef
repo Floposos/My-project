@@ -1,0 +1,19 @@
+{
+    "name": "Logistikum.Editor",
+    "rootNamespace": "Logistikum.EditorTools",
+    "references": [
+        "Logistikum.Sim",
+        "Logistikum.Game"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

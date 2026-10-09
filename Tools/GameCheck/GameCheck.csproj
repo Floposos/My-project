@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Nur Compiler-Prüfung der Unity-Spielschicht ohne laufenden Editor (gegen die DLLs der Unity-Installation). -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS0649;CS0414;CS1591</NoWarn>
+    <UnityRoot>/Applications/Unity/Hub/Editor/6000.6.5f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine</UnityRoot>
+    <ScriptAssemblies>../../Library/ScriptAssemblies</ScriptAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Assets/Logistikum/Sim/**/*.cs" />
+    <Compile Include="../../Assets/Logistikum/Game/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Reference Include="$(UnityRoot)/*.dll" Private="false" />
+    <Reference Include="$(ScriptAssemblies)/Unity.InputSystem.dll" Private="false" />
+    <Reference Include="$(ScriptAssemblies)/Unity.RenderPipelines.Universal.Runtime.dll" Private="false" />
+    <Reference Include="$(ScriptAssemblies)/Unity.RenderPipelines.Core.Runtime.dll" Private="false" />
+  </ItemGroup>
+</Project>

@@ -112,3 +112,12 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Logistikum: Sim-Tests außerhalb von Unity (dotnet)
+Tools/SimTests/bin/
+Tools/SimTests/obj/
+Tools/GameCheck/bin/
+Tools/GameCheck/obj/
+/Screenshots/
+!Tools/SimTests/SimTests.csproj
+!Tools/GameCheck/GameCheck.csproj
